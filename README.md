@@ -1,7 +1,8 @@
 # Lesson
 实验楼里面的小课程，记录学习情况！
 ## picToChar ：是利用python 实现 图片转字符画的代码
-## HtmlDeomo
+## HtmlDeomo（未完成）
+## 7-22 暂时停滞
 
 7-19 :HTML5 Canvas小游戏
 * 学了js, html, css, 为了巩固基础知识，模仿写了个小游戏
