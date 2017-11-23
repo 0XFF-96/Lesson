@@ -1,0 +1,28 @@
+# W
+# a
+# x
+
+def feedforward(w, a, x):
+
+	#
+	f = lambda s : 1 / (1 + np.exp(-s))
+
+	w = np.array(w)
+	temp = np.array(np.concatenate((a, x), axis=0))
+	z_next = np.dot(w, temp)
+
+	
+	return f(z_next), z_next
+
+
+def backprop(2, z, delta_next):
+
+	f = lambda s : np.array(1 / 1(1 + np.exp(-s)))
+
+
+	df = lambda s : f(s) * (1 - f(s))
+
+	delta = df(z) * np.dot(w.T, delta_next)
+
+	return delta
+	
