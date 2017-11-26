@@ -49,3 +49,7 @@
 * 如果可以，想将游戏加载过程，用流程图画出来。
 
 7-23
+
+
+11-26 
+try to reactivate this progroam for using python
